@@ -1,0 +1,36 @@
+div.container {
+    background-color: #996633;
+    color: white;
+    width: 90%;
+    /* centers the page */
+    margin: 0 auto; 
+    overflow: auto;
+}
+
+input, label {
+    display: inline-block;
+}
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}
+input {
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="url"], input[type="email"], input[type="tel"]{
+    width: 240px;
+    padding: 3px;
+}
+
+fieldset#trans label {
+    text-align: left;
+    display: inline-block;
+    width: 15em;
+}
+
+.est{
+    display: block;
+    width: 150px;
+}
